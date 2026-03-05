@@ -23,6 +23,7 @@ a {
   max-width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
+  width: 100%;
 }
 
 /* visually hidden */
@@ -483,5 +484,6 @@ a {
 .footer .social-link:focus {
   background-color: #31d0aa;
 }
+
 
 
