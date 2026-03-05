@@ -452,38 +452,35 @@ a {
   display: inline-block;
   margin-bottom: 16px;
 }
-
 .footer-text {
   color: #f4f4fd;
-
   line-height: 1.5;
   letter-spacing: 0.02em;
-
   max-width: 264px;
 }
 
-/* FIXED TYPOGRAPHY */
-
 .footer-title {
   color: #ffffff;
-
   font-weight: 500;
   font-size: 16px;
-
   line-height: 1.5;
   letter-spacing: 0.02em;
-
   margin-bottom: 16px;
 }
 
-/* FOOTER SOCIAL */
-
-.footer-social-list {
+.social-list {
   display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.footer .social-list {
   gap: 16px;
+  justify-content: flex-start;
 }
 
 .footer .social-link:hover,
 .footer .social-link:focus {
   background-color: #31d0aa;
 }
+
